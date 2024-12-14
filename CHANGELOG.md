@@ -1,3 +1,7 @@
+## [1.0.2] - 2024-12-21
+### Updated
+- README documentation.
+
 ## [1.0.0] - 2024-12-14
 ### Added
 - Initial release of the `ScreenLoadingHandler` package.

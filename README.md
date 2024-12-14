@@ -8,7 +8,7 @@ The **ScreenLoadingHandler** is a Flutter widget that displays a loading indicat
 
 If you find this package helpful, consider buying us a coffee! 
 
-<a href="https://www.buymeacoffee.com/adarshsiiiiingh">
+<a href="https://www.buymeacoffee.com/adarshneeds">
   <img src="https://github.com/user-attachments/assets/40372fba-f86c-4930-be63-66f1f49454ec" alt="Buy Me A Coffee" width="240" height="60"/>
 </a>
 
@@ -128,7 +128,9 @@ Refer to the [tests](./test/screen_loading_handler_test.dart) for example test c
 
 If you find this project useful, consider supporting me by buying me a coffee! 
 
-[![Buy Me A Coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=&slug=your-username&button_colour=FF813F&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00)](https://www.buymeacoffee.com/your-username)
+<a href="https://www.buymeacoffee.com/adarshneeds">
+  <img src="https://github.com/user-attachments/assets/40372fba-f86c-4930-be63-66f1f49454ec" alt="Buy Me A Coffee" width="240" height="60"/>
+</a>
 
 Your support helps me continue developing open-source projects and maintain the quality of my work. Thank you for your generosity!
 
