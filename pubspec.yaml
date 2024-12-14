@@ -1,7 +1,7 @@
 name: screen_loading_handler
 description: "This package is used to show loading screen while fetching data from server or any other operation."
 version: 1.0.0
-homepage:
+homepage: https://github.com/adarshneeds/screen_loading_handler
 
 environment:
   sdk: ^3.5.2
