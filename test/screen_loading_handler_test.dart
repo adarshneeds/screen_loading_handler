@@ -12,7 +12,8 @@ void main() {
       controller = ScreenLoadingController();
     });
 
-    testWidgets('should show loading indicator when isLoading is true', (WidgetTester tester) async {
+    testWidgets('should show loading indicator when isLoading is true',
+        (WidgetTester tester) async {
       // Build the widget tree with ScreenLoadingHandler
       await tester.pumpWidget(
         MaterialApp(
@@ -34,7 +35,8 @@ void main() {
       expect(find.byType(CircularProgressIndicator), findsOneWidget);
     });
 
-    testWidgets('should hide loading indicator when isLoading is false', (WidgetTester tester) async {
+    testWidgets('should hide loading indicator when isLoading is false',
+        (WidgetTester tester) async {
       // Build the widget tree with ScreenLoadingHandler
       await tester.pumpWidget(
         MaterialApp(
@@ -60,7 +62,9 @@ void main() {
       expect(find.byType(CircularProgressIndicator), findsNothing);
     });
 
-    testWidgets('should close loading indicator when tapped if closeOnTap is true', (WidgetTester tester) async {
+    testWidgets(
+        'should close loading indicator when tapped if closeOnTap is true',
+        (WidgetTester tester) async {
       // Build the widget tree with ScreenLoadingHandler and closeOnTap set to true
       await tester.pumpWidget(
         MaterialApp(
@@ -87,7 +91,9 @@ void main() {
       expect(find.byType(CircularProgressIndicator), findsNothing);
     });
 
-    testWidgets('should not close loading indicator when tapped if closeOnTap is false', (WidgetTester tester) async {
+    testWidgets(
+        'should not close loading indicator when tapped if closeOnTap is false',
+        (WidgetTester tester) async {
       // Build the widget tree with ScreenLoadingHandler and closeOnTap set to false
       await tester.pumpWidget(
         MaterialApp(

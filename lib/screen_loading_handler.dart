@@ -18,7 +18,8 @@ class ScreenLoadingHandler extends StatelessWidget {
   const ScreenLoadingHandler({
     required this.controller, // The controller that manages the loading state
     required this.child, // The main body (UI content) of the screen
-    this.backgroundColor = Colors.white10, // Background color for the loading overlay
+    this.backgroundColor =
+        Colors.white10, // Background color for the loading overlay
     this.loadingBoxColor = Colors.black, // Box color for the loading spinner
     this.loadingIndicatorColor = Colors.white, // Color of the loading indicator
     this.loadingBoxHeight = 90, // Height of the loading box
@@ -86,21 +87,28 @@ class ScreenLoadingHandler extends StatelessWidget {
                 // Make the container take up the full screen
                 height: double.infinity,
                 width: double.infinity,
-                color: backgroundColor, // Set the background color for the overlay
+                color:
+                    backgroundColor, // Set the background color for the overlay
                 child: Center(
                   // Center the loading indicator in the middle of the screen
                   child: Container(
-                    height: loadingBoxHeight, // Set a fixed height for the loading box
-                    width: loadingBoxWidth, // Set a fixed width for the loading box
+                    height:
+                        loadingBoxHeight, // Set a fixed height for the loading box
+                    width:
+                        loadingBoxWidth, // Set a fixed width for the loading box
                     decoration: BoxDecoration(
-                      color: loadingBoxColor, // Set the color of the box around the spinner
-                      borderRadius: BorderRadius.circular(loadingBoxBorderRadius), // Rounded corners for the box
+                      color:
+                          loadingBoxColor, // Set the color of the box around the spinner
+                      borderRadius: BorderRadius.circular(
+                          loadingBoxBorderRadius), // Rounded corners for the box
                     ),
                     child: Center(
                       // Center the CircularProgressIndicator inside the loading box
                       child: CircularProgressIndicator(
-                        color: loadingIndicatorColor, // Set the color of the spinner
-                        strokeWidth: loadingIndicatorStrokeWidth, // Set the thickness of the spinner's stroke
+                        color:
+                            loadingIndicatorColor, // Set the color of the spinner
+                        strokeWidth:
+                            loadingIndicatorStrokeWidth, // Set the thickness of the spinner's stroke
                       ),
                     ),
                   ),

@@ -1,4 +1,8 @@
-## [1.0.1] - 2024-12-21
+## [1.0.2] - 2024-12-14
+### Added
+- Added example.md
+
+## [1.0.1] - 2024-12-14
 ### Updated
 - README documentation.
 
