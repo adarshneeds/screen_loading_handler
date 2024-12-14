@@ -1,0 +1,19 @@
+name: screen_loading_handler
+description: "This package is used to show loading screen while fetching data from server or any other operation."
+version: 1.0.0
+homepage:
+
+environment:
+  sdk: ^3.5.2
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
