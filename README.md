@@ -2,17 +2,6 @@
 
 The **ScreenLoadingHandler** is a Flutter widget that displays a loading indicator (spinner) over the main content of a screen. It automatically listens to a `ScreenLoadingController` to determine when to show or hide the loading indicator, without needing to call `setState`. This is an efficient way to manage loading states in your app without cluttering your UI code.
 
----
-
-### ☕ Support My Work
-
-If you find this package helpful, consider buying us a coffee! 
-
-<a href="https://www.buymeacoffee.com/adarshneeds">
-  <img src="https://github.com/user-attachments/assets/40372fba-f86c-4930-be63-66f1f49454ec" alt="Buy Me A Coffee" width="240" height="60"/>
-</a>
-
----
 
 ## Features
 
@@ -124,7 +113,7 @@ To ensure the correct behavior of `ScreenLoadingHandler`, you can write tests to
 
 Refer to the [tests](./test/screen_loading_handler_test.dart) for example test cases.
 
-## Buy Me a Coffee ☕️
+## ☕ Support
 
 If you find this project useful, consider supporting me by buying me a coffee! 
 
@@ -133,6 +122,12 @@ If you find this project useful, consider supporting me by buying me a coffee!
 </a>
 
 Your support helps me continue developing open-source projects and maintain the quality of my work. Thank you for your generosity!
+
+## Feedback
+
+We'd love to hear your thoughts! Feel free to create an issue on this repository if you have any suggestions or concerns.
+
+You can also fill out this [Google Form](https://forms.gle/7xRrf5PjbgpA5M3k6) to provide feedback.
 
 ## License
 
